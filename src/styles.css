@@ -1,49 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 * {
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/inter-font.ttf');
 }
 
 :root {
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-         Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-         "Segoe UI Symbol";
     --background-color: #131415;
     --nav-hover: #1A1B1E;   
     --font-light: #EFEFF0;
     --font-dark: #A7AAB4;
-
+    
+    --blanco: #dbdbdb;
+    --white: #FFFFFF;
     --green: #00F48D;
     --blue-badge: #20479E;
     --orange-badge: #D54E01;    
     --orange-gradient: linear-gradient(90deg, #F3E810 0%, #F4580A 100%);
     --blue-gradient: linear-gradient(90deg, #14B0FF 0%, #6950F5 100%);
+    --black-section-gradient: linear-gradient(90deg, #212121 0%, #000000 100%);
 }
 
 h1 {
     font-size: 3.125rem;
     color: var(--orange-gradient);
-    font-weight: 500;
+    font-weight: 800;
     line-height: 100%;
     letter-spacing: -0.125rem;
     margin: 0;
-    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-      "Segoe UI Symbol";
 }
 
 p {
     margin: 0;
-    color: var(--gray-700);
+    color: var(--font-dark);
 }
 
-main {
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: inherit;
-    position: relative;
+li {
+    color: var(--font-dark);
 }

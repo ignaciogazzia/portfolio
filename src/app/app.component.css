@@ -1,8 +1,264 @@
+.main {
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    position: relative;
+}
 
-.home-title {
+.card-nav-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 40px;
+    position: fixed;
+}
+
+.switch-to-english-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+}
+
+.nav-bar {
+    background-color: transparent;    
+}
+
+
+.card-cv {
+    border: 0.5px solid var(--blanco);
+    border-radius: 9px;
+    height: 100px;
+    padding: 20px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* TEXTOS */
+.text-dark {
+    font-size: 14px;
+    color: var(--font-dark);
+}
+
+.text-light {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.text-dark-big {
+    font-size: 16px;
+    color: var(--font-dark);
+}
+.text-detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.lighter-smaller {
+    font-size: 12px;
+    color: var(--white);
+}
+
+.text-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+/* TEXTOS */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.image-container img#front-image{
+    width: 270px;
+    height: 360px;
+    border-radius: 12px;
+}
+
+p.margin-top {
+    margin-top: 10px;
+}
+
+.download-container {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.download-icon {
+    width: 30px;
+    height: 30px;
+    color: var(--white);
+    overflow: visible;
+}
+
+.portafolio-container {
+    margin-top: 50px;
+}
+
+.boton-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.boton-nav-activo,
+.boton-nav:hover {
+    background-color: var(--nav-hover) ;
+    color: var(--white);
+}
+
+.boton-nav-activo p,
+.boton-nav:hover p {
+    color: var(--white); /* Cambia el color del texto */
+}
+
+.icon-nav {
+    color: var(--white);
+    width: 17px;
+    margin-left: 12px;
+}
+
+p.margin-left {
+    margin-left: 16px;
+}
+
+p.margin-bottom {
+    margin-bottom: 10px;
+}
+
+p.margin-right {
+    margin-right: 7px;
+}
+
+p.margin-top {
+    margin-top: 20px;
+}
+
+.content {
+    width: 100%;
+    padding: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 280px;
+}
+
+section.card-section {
+    padding: 58px;
+    background: var(--black-section-gradient);
+    margin-bottom: 10px;
+    border-radius: 16px;
+    width: -webkit-fill-available;
+}
+
+section.col-distribution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumen {
+    padding-right: 120px;
+}
+
+.resumen-title-orange {
     background: var(--orange-gradient);    
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
+.resumen-title-blue {
+    background: var(--blue-gradient);    
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.language-icon {
+    width: 30px;
+    color: var(--font-dark);
+}
+
+.green {
+    color: var(--green);
+}
+
+.otw-role-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 15px;
+    width: 1px;
+    background-color: var(--font-dark);
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.entities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.utn {
+    width: 130px;
+    margin-right: 10px;
+}
+
+.clicoh {
+    width: 80px;
+}
+
+.darker {
+    margin-top: 10px;
+    color: var(--font-dark); 
+}
+
+
+.image-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.margin-top-higher {
+    margin-top: 30px;
+}

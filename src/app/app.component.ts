@@ -12,10 +12,15 @@ import { LanguageService } from './services/language/language.service';
 })
 export class AppComponent {
   title = 'portfolio';
-
-  cambiarLenguage(){
-    this.langService.changeLanguage("EN");
-  }
+  activo: string = 'home'; // 'home' es el valor predeterminado
 
   constructor(private langService: LanguageService){}
+
+  setActivo(nombre: string): void {
+    this.activo = nombre;
+  }
+  
+  changeLanguage(){
+    this.langService.changeLanguage("EN");
+  }
 }
