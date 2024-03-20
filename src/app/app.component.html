@@ -12,7 +12,9 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="download-icon">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
           </svg>
-          <p class="lighter-smaller">Ver CV</p>
+          <a href="https://media.licdn.com/dms/document/media/D4D2DAQFKha7Iz-BCLA/profile-treasury-document-pdf-analyzed/0/1710442859987?e=1711584000&v=beta&t=LaHIN76htfgRCzyDIGI9bN_2FoRqlDJVhh9Sc75PMfY" target="_blank" class="no-decoration">
+            <p class="lighter-smaller">Ver CV</p>
+          </a>
         </div>      
       </div>
       
@@ -45,7 +47,8 @@
       </div>
     </nav>
     <div class="switch-to-english-div" (click)="changeLanguage()">
-      <p class="margin-right">Switch to English</p>
+      <p class="margin-right" *ngIf="currentLanguage === 'ES'">Switch to English</p>
+      <p class="margin-right" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="language-icon">
         <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
       </svg>      
@@ -53,8 +56,8 @@
 
   </div>
 
-  <!-- Contenido -->
   <div class="content">
+    <!-- Home -->
     <section class="card-section col-distribution">
       <div class="resumen">
         <div class="otw-role-container">
@@ -79,12 +82,31 @@
         <div class="image-container">
           <img src="../assets/recibida.jpg" alt="" id="front-image">
         </div>
-        <p class="text-detail right-align darker">GRADUADACIÓN INGENIERIA (UTN - CÓRDOBA)</p>
+        <p class="text-detail right-align darker">GRADUACIÓN 2024 (UTN)</p>
       </div>
     </section>
-    <section class="card-section" #experiencia>
-      <h1 class="resumen-title-orange">Hola mundo</h1>
+
+    <!-- Technologies -->
+    <section class="card-section center-items">
+      <div class="less-width-40">
+        <h2 class="line-height">Técnologías con las que he trabajado</h2>
+      </div>
+      <div class="tech-group-container">
+        <div data-tooltip="Angular"><img data-tooltip="Angular" class="icon-tech" src="../assets/icons/angular.svg" alt=""></div>
+        <div data-tooltip="Ionic (Angular)"><img class="icon-tech" src="../assets/icons/ionic.svg" alt=""></div>
+        <div data-tooltip=".NET Core & ASP.NET"><img class="icon-tech" src="../assets/icons/dotnet.svg" alt=""></div>
+        <div data-tooltip="Python Scripting"><img class="icon-tech" src="../assets/icons/python.svg" alt=""></div>
+        <div data-tooltip="MySQL"><img class="icon-tech" src="../assets/icons/mysql.svg" alt=""></div>
+        <div data-tooltip="AWS EC2 & RDS"><img class="icon-tech" src="../assets/icons/aws.svg" alt=""></div>
+        <div data-tooltip="Docker"><img class="icon-tech" src="../assets/icons/docker.svg" alt=""></div>
+        <div data-tooltip="Bootstrap"><img class="icon-tech" src="../assets/icons/bootstrap.svg" alt=""></div>
+        <div data-tooltip="Figma"><img class="icon-tech" src="../assets/icons/figma.svg" alt=""></div>
+        <div data-tooltip="GitHub"><img class="icon-tech" src="../assets/icons/github.svg" alt=""></div>
+        <div data-tooltip="Postman"><img class="icon-tech" src="../assets/icons/postman.svg" alt=""></div>
+      </div>
     </section>
+
+    <!-- Experience -->
     <section class="card-section">
       <h1 class="resumen-title-orange">Hola mundo</h1>
     </section>
