@@ -1,0 +1,52 @@
+.card {
+    padding: 25px;
+}
+
+img#card-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 16px;
+}
+
+.items-left-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.badge {
+    border-radius: 14px;
+    background-color: var(--blue-badge);
+    margin-right: 8px;
+    padding: 0px 10px 0px 10px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.icon-small-15 {
+    width: 20px;
+    height: 20px;
+}
+
+.badge-dates {
+    background-color: var(--background-color);
+    border-radius: 6px;
+    padding: 0px 10px 0px 10px;
+}
+
+.pin-top-left {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.no-absolute {
+    position: relative;
+}

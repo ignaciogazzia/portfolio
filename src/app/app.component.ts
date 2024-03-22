@@ -4,11 +4,12 @@ import { TranslatePipe } from './translation/translate.pipe'
 import { LanguageService } from './services/language/language.service';
 import { Subscription } from 'rxjs';
 import { CommonModule } from '@angular/common';
+import { CardComponent } from './components/card/card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, TranslatePipe, CommonModule],
+  imports: [RouterOutlet, TranslatePipe, CommonModule, CardComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css', './font-styles.css', './tooltip.css']
 })

@@ -46,3 +46,11 @@
     margin-top: 10px;
     color: var(--font-dark); 
 }
+
+.line-height {
+    line-height: 30px;
+}
+
+.white{
+    color: var(--white);
+}

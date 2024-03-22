@@ -3,18 +3,18 @@
   <div class="card-nav-bottom-container">
     <nav class="nav-bar">
       <div class="card-cv">
-        <div class="image-container">
+        <div class="center-items-row">
           <img src="../assets/foto-yo.jpg" alt="">
         </div>
-        <p class="text-light margin-top">Ignacio Gazzia</p>
+        <p class="text-light margin-top-10">Ignacio Gazzia</p>
         <p class="text-dark">{{'rol.id' | translate}}</p>
         <div class="download-container">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="download-icon">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-          </svg>
-          <a href="https://media.licdn.com/dms/document/media/D4D2DAQFKha7Iz-BCLA/profile-treasury-document-pdf-analyzed/0/1710442859987?e=1711584000&v=beta&t=LaHIN76htfgRCzyDIGI9bN_2FoRqlDJVhh9Sc75PMfY" target="_blank" class="no-decoration">
-            <p class="lighter-smaller">Ver CV</p>
+          <a [href]="('cv.url' | translate)" target="_blank" class="no-decoration">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="download-icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
           </a>
+            <p class="lighter-smaller">Ver CV</p>
         </div>      
       </div>
       
@@ -47,8 +47,8 @@
       </div>
     </nav>
     <div class="switch-to-english-div" (click)="changeLanguage()">
-      <p class="margin-right" *ngIf="currentLanguage === 'ES'">Switch to English</p>
-      <p class="margin-right" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
+      <p class="margin-right-7" *ngIf="currentLanguage === 'ES'">Switch to English</p>
+      <p class="margin-right-7" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="language-icon">
         <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
       </svg>      
@@ -69,7 +69,7 @@
         <h1 class="resumen-title-blue">Portafolio Web</h1>
         <p class="text-description margin-top">Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones Web y Mobile en el stack de Angular, .NET Core, ASP.NET. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.</p>
         <p class="text-detail margin-top-higher margin-bottom">ENTIDADES DONDE CRECÍ PROFESIONALMENTE</p>
-        <div class="entities">
+        <div class="flex-start-center">
           <a href="https://www.frc.utn.edu.ar/" target="_blank">
             <img src="../assets/UTN-FRC_logo.png" alt="" class="utn">
           </a>
@@ -87,7 +87,7 @@
     </section>
 
     <!-- Technologies -->
-    <section class="card-section center-items">
+    <section class="card-section center-items-row">
       <div class="less-width-40">
         <h2 class="line-height">Técnologías con las que he trabajado</h2>
       </div>
@@ -107,10 +107,143 @@
     </section>
 
     <!-- Experience -->
-    <section class="card-section">
-      <h1 class="resumen-title-orange">Hola mundo</h1>
+    <section class="card-section center-items-row column">
+      <div class="flex-start-center margin-bottom-20">
+        <div class="outer-div center-items-row margin-right-20">
+          <div class="inner-div blue-border center-items-row">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <h2>Experiencia Laboral</h2>
+          <p class="text-description">Mi experiencia profesional en el ámbito de desarrollo e ingeniería de software</p>
+        </div>
+      </div>
+      <app-card 
+      role="IT Support Analyst"
+      title="ClicOH Logistics services for ecommerce"
+      dateStart="Jul 2022"
+      dateEnd="May 2023"
+      redirectTo="https://clicoh.com/"
+      description="For a year, I have been working as an IT Analyst, focusing on resolving incidents related to both Web and Mobile apps. My main objective was to identify the source of problems and solve them as quickly as possible. Additionally, I developed Python scripts to help the company automate various types of e-commerce processes. This was beneficial to the Support team, enabling them to become more effective in problem-solving. In my daily work I created SQL queries and performed API testing through Postman."
+      [skills]="['Python','Postman','MySQL', 'Jira', 'WooCommerce API', 'MercadoLibre API']"
+      imgRoute="../../../assets/clicoh-logo.png">
+      </app-card>
+      <app-card 
+      role="Desarrollador Freelance"
+      title="Email Sending Automation"
+      dateStart="Jul 2022"
+      dateEnd="May 2023"
+      description="I worked as a freelance developer for a marketing agency to create and provide an email automation service for mass email sending. This helped the company reach new potential leads. The project was built using Python and various libraries, including the YouTube API and Google Sheets API, to process and store information."
+      [skills]="['Python','Youtube API','Gloogle Sheets API']"
+      imgRoute="../../../assets/icons/python.svg">
+      </app-card>
     </section>
 
+    <!-- Projects -->
+    <section class="card-section center-items-row column">
+      <div class="flex-start-center margin-bottom-20">
+        <div class="outer-div center-items-row margin-right-20">
+          <div class="inner-div orange-border center-items-row">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+            </svg> 
+          </div>
+        </div>
+        <div>
+          <h2>Proyectos seleccionados</h2>
+          <p class="text-description">Una colección de proyectos de desarrollo de software que destaco como mis favoritos</p>
+        </div>
+      </div>
+      <app-card 
+      role="Full Stack Developer"
+      title="Dojo Gaming Web & Mobile"
+      dateStart="2023"
+      dateEnd="2024"
+      redirectTo="https://manage-dojo.com/"
+      description="Final Software Engineering Project created for Dojo Gaming, a video game business that rents video game consoles for esports training. This is an end-to-end (E2E) project that initially required me to identify and analyze business requirements with the client. My team and I designed and developed a Web & Mobile Management System for Dojo Gaming that supports the daily rental process and administration of the store. Built using frameworks like Angular, Ionic, .NET Core, ASP.NET, MySQL, and dockerized. Applied design patterns in both frontend and backend. UX prototyping in Figma (check them out here). Finally, deployed on AWS Cloud using Amazon RDS and EC2 services."
+      [skills]="['Angular','.NET','Ionic', 'MySQL', 'Entity Framework', 'Docker', 'AWS']"
+      imgRoute="../../../assets/dojo-gaming.png">
+      </app-card>
+    </section>
+
+    <!-- Education -->
+    <section class="card-section center-items-row column">
+      <div class="flex-start-center margin-bottom-20">
+        <div class="outer-div center-items-row margin-right-20">
+          <div class="inner-div blue-border center-items-row">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            </svg>
+            
+          </div>
+        </div>
+        <div>
+          <h2>Formación Académica</h2>
+          <p class="text-description">Mi historial academico a lo largo de los años</p>
+        </div>
+      </div>
+      <div class="center-items-row flex-wrap">
+        <app-card class="margin-right-20"
+        title="Universidad Tecnologica Nacional"
+        dateStart="2018"
+        dateEnd="2024"
+        description="Grado en Ingeniería en Sistemas de Información"
+        >
+        </app-card>
+        <app-card class="margin-right-20"
+        title="Wallace Academy of English"
+        dateStart="2008"
+        dateEnd="2016"
+        description="Curso completo de idioma Ingles"
+        >
+        </app-card>
+        <app-card class="margin-right-20"
+        title="Wallace Academy of English"
+        dateStart="2008"
+        dateEnd="2016"
+        description="Curso completo de idioma Ingles"
+        >
+        </app-card>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="card-section center-items-row">
+      <div class="flex-start-start">
+        <div class="image-container margin-right-30">
+          <img src="../assets/recibida2.jpeg" alt="" id="footer-image">
+        </div>
+        <div class="margin-right-20 width-50">
+          <h2>Sobre mi</h2>
+          <p class="text-description white margin-top-10">I am passionate about software development, with experience in crafting software products. I firmly believe that teamwork is essential for success. Creativity plays a vital role in my approach, and I am continually inspired by fellow software engineers to improve my design and development skills.</p>
+        </div>
+        <div>
+          <h2>Trabajemos juntos!</h2>
+          <div class="flex-start-center flex-wrap margin-top-10">
+            <div class="center-items-row button margin-bottom-7 margin-right-7">
+              <img class="icon-button white margin-right-7" src="../assets/icons/linkedin.svg" alt="">
+              <p class="text-description white">LinkedIn</p>
+            </div>
+            <div class="center-items-row button margin-bottom-7 margin-right-7">
+              <img class="icon-button white margin-right-7" src="../assets/icons/github.svg" alt="">
+              <p class="text-description white">Github</p>
+            </div>
+            <div class="center-items-row button margin-bottom-7 margin-right-7">
+              <img class="icon-button white margin-right-7" src="../assets/icons/phone.svg" alt="">
+              <p class="text-description white">+54 3541 583265</p>
+            </div>
+            <div class="center-items-row button margin-bottom-7 margin-right-7">
+              <img class="icon-button white margin-right-7" src="../assets/icons/mail.svg" alt="">
+              <p class="text-description white">ignaciogazzia&#64;hotmail.es</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
 
   </div>
 </main>
