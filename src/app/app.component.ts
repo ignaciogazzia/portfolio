@@ -10,6 +10,7 @@ import { CardComponent } from './components/card/card.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, TranslatePipe, CommonModule, CardComponent],
+  providers: [TranslatePipe],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css', './font-styles.css', './tooltip.css']
 })
@@ -19,7 +20,8 @@ export class AppComponent {
   currentLanguage: string;
   private languageSubscription: Subscription; 
 
-  constructor(private langService: LanguageService){
+  constructor(private langService: LanguageService,
+    private translatePipe: TranslatePipe){
     this.languageSubscription = this.langService.currentLanguage.subscribe(lang => {
       this.currentLanguage = lang;
     });
@@ -35,5 +37,9 @@ export class AppComponent {
       return;
     }
     this.langService.changeLanguage("ES");
+  }
+
+  translateText(identifier: string) : string {
+    return this.translatePipe.transform(identifier);
   }
 }
