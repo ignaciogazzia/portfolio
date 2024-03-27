@@ -16,7 +16,7 @@ export const translations: Translation = {
         "role.complete.id": "INGENIERO EN SISTEMAS & FULL STACK DEVELOPER",        
         "greet.id": "¡Hola! Bienvenido a mi",
         "portfolio.web.id": "Portafolio Web",
-        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones Web y Mobile en el stack de Angular, .NET Core, ASP.NET. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
+        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones web y móviles utilizando el stack de Angular, .NET Core, ASP.NET. Más allá de mi stack principal, poseo una sólida capacidad para escribir scripts en Python para automatizar diversos procesos, mejorando la eficiencia y resolviendo desafíos complejos. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
         "entities.id": "ENTIDADES DONDE CRECÍ PROFESIONALMENTE",
         "graduation.id": "GRADUACIÓN 2024 (UTN)",
 
@@ -86,7 +86,7 @@ export const translations: Translation = {
         "role.complete.id": "SOFTWARE ENGINEER & FULL STACK DEVELOPER",        
         "greet.id": "Hi! Welcome to my",
         "portfolio.web.id": "Web Portfolio",
-        "description.id": "I am Ignacio, an Information Systems Engineer and Full Stack Developer. I have one year of experience in designing systems and creating Web and Mobile applications using the Angular, .NET Core, ASP.NET stack. I am passionate about technology and constantly use it to efficiently solve problems",
+        "description.id": "I am Ignacio, a Software Engineer and Full Stack Developer. I have one year of experience in designing systems and creating Web and Mobile applications using the Angular, .NET Core, ASP.NET stack. Beyond my core stack, I possess a strong ability to write Python scripts to automate various processes, enhancing efficiency and solving complex problems. My passion for technology drives me to constantly explore new tools and methodologies to efficiently address challenges.",
         "entities.id": "Organizations where i developed professionally",
         "graduation.id": "GRADUATION 2024 (UTN)",
 
