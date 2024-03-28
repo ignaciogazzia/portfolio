@@ -425,4 +425,21 @@ app-card {
     div.outer-div{
         margin-right: 20px!important;
     }
+    div.tech-group-container{
+        margin-top: 20px;
+    }
 }
+
+@media(width < 740px){
+    div.card-nav-bottom-container{
+        display: none;
+    }
+    div.content{
+        margin-left: 40px;
+    }
+    /* TODO: agregar lla barra superior */
+}
+
+
+
+    
