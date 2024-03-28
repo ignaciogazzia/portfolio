@@ -76,30 +76,32 @@
   <div class="content">
     <!-- Home -->
     <section class="card-section col-distribution" id="home">
-      <div class="resumen">
-        <div class="otw-role-container">
-          <p class="text-detail green">{{ 'otw.id' | translate }}</p>
-          <div class="divider"></div>
-          <p class="text-detail">{{ 'role.complete.id' | translate }}</p>
-        </div>
-        <h1 class="resumen-title-orange margin-top">{{ 'greet.id' | translate }}</h1>
-        <h1 class="resumen-title-blue">{{ 'portfolio.web.id' | translate }}</h1>
-        <p class="text-description margin-top">{{ 'description.id' | translate }}</p>
-        <p class="text-detail margin-top-higher margin-bottom">{{ 'entities.id' | translate }}</p>
-        <div class="flex-start-center">
-          <a href="https://www.frc.utn.edu.ar/" target="_blank">
-            <img src="../assets/UTN-FRC_logo.webp" alt="" class="utn">
-          </a>
-          <a href="https://clicoh.com/" target="_blank">
-            <img src="../assets/clicoh.webp" alt="" class="clicoh">
-          </a>
-        </div>
+      <div class="otw-role-container">
+        <p class="text-detail green">{{ 'otw.id' | translate }}</p>
+        <div class="divider"></div>
+        <p class="text-detail">{{ 'role.complete.id' | translate }}</p>
       </div>
-      <div class="image-desc-container">
-        <div class="image-container">
-          <img src="../assets/recibida.webp" alt="" id="front-image">
+      <div class="flex-between-center">
+        <div class="padding-right-80">
+          <h1 class="resumen-title-orange margin-top">{{ 'greet.id' | translate }}</h1>
+          <h1 class="resumen-title-blue">{{ 'portfolio.web.id' | translate }}</h1>
+          <p class="text-description margin-top">{{ 'description.id' | translate }}</p>
+          <p class="text-detail margin-top-higher margin-bottom">{{ 'entities.id' | translate }}</p>
+          <div class="flex-start-center" id="entities-cont">
+            <a href="https://www.frc.utn.edu.ar/" target="_blank">
+              <img src="../assets/UTN-FRC_logo.webp" alt="" class="utn">
+            </a>
+            <a href="https://clicoh.com/" target="_blank">
+              <img src="../assets/clicoh.webp" alt="" class="clicoh">
+            </a>
+          </div>
         </div>
-        <p class="text-detail right-align darker">{{ 'graduation.id' | translate }}</p>
+        <div class="image-desc-container">
+          <div class="image-container">
+            <img src="../assets/recibida.webp" alt="" id="front-image">
+          </div>
+          <p class="text-detail right-align darker">{{ 'graduation.id' | translate }}</p>
+        </div>
       </div>
     </section>
 
@@ -236,8 +238,8 @@
           <h2>{{ 'about.title.id' | translate }}</h2>
           <p class="text-description white margin-top-10">{{ 'about.desc.id' | translate }}</p>
         </div>
-        <div>
-          <h2>{{ 'work.together.id' | translate }}!</h2>
+        <div class="work-together-cont">
+          <h2>{{ 'work.together.id' | translate }}</h2>
           <div class="flex-start-center flex-wrap margin-top-10">
             <a href="https://www.linkedin.com/in/ignacio-gazzia/" target="_blank" class="no-decoration">
               <div class="center-items-row button margin-bottom-7 margin-right-7">

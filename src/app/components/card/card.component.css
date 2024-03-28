@@ -18,7 +18,6 @@ img#card-image {
 .badge {
     border-radius: 14px;
     background-color: var(--blue-badge);
-    margin-right: 8px;
     padding: 0px 10px 0px 10px;
 }
 
@@ -49,4 +48,8 @@ img#card-image {
 
 .no-absolute {
     position: relative;
+}
+
+.gap-10 {
+    gap: 10px;
 }
