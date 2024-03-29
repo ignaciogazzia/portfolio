@@ -1,0 +1,106 @@
+@media (width < 1250px)  {
+    .card-nav-bottom-container {
+        width: 150px;
+    }
+    p.margin-right-7 {
+        font-size: 13px;
+    }
+    svg.language-icon {
+        width: 20px;
+    }
+    p.text-dark {
+        visibility: hidden;
+    }
+    .content {
+        margin-left: 230px;
+    }
+    .pin-top-left {
+        position: relative;
+    }
+    img#front-image{
+        width: 220px;
+        height: 310px;
+    }    
+    div.flex-start-start {
+        flex-wrap: wrap;
+    }
+    .work-together-cont {
+        margin-top: 20px;
+    }
+}
+
+@media (width < 1050px){
+    .image-desc-container{
+        display: none;
+    }
+    div.padding-right-80{
+        padding-right: 0px;
+    }
+}
+
+@media (width < 900px) {
+    div.image-container img#footer-image{
+        display: none;
+    }
+    div.flex-start-start {
+        flex-direction: column;
+    }
+    div#card-cont {
+        flex-direction: column;
+    }
+    div.items-left-col{
+        align-items: center;
+    }
+    div.flex-start-center{
+        justify-content: center;
+    }
+    div img#card-image {
+        margin-bottom: 15px;
+    }
+    div h3.margin-right-7 {
+        text-align: center;
+    }
+    p.text-description.margin-top-10{
+        text-align: center;
+    }
+    section div.flex-start-start{
+        align-items: center;
+    }
+    div div.margin-right-20.width-50 {
+        text-align: center;
+        margin-right: 0px;
+    }
+    div.work-together-cont{
+        text-align: center;        
+    }
+    div#entities-cont{
+        justify-content: flex-start;
+    }
+    section div.less-width-40 {
+        width: 100%;
+        margin-right: 0px;
+        text-align: center;
+    }
+    section.card-section.center-items-row{
+        flex-direction: column;
+    }
+    div.center-items-row.margin-right-20{
+        margin-right: 0px;
+    }
+    div.outer-div{
+        margin-right: 20px!important;
+    }
+    div.tech-group-container{
+        margin-top: 20px;
+    }
+}
+
+@media(width < 740px){
+    div.card-nav-bottom-container{
+        display: none;
+    }
+    div.content{
+        margin-left: 40px;
+    }
+    /* TODO: agregar lla barra superior */
+}

@@ -12,7 +12,7 @@ import { CardComponent } from './components/card/card.component';
   imports: [RouterOutlet, TranslatePipe, CommonModule, CardComponent],
   providers: [TranslatePipe],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', './font-styles.css', './tooltip.css']
+  styleUrls: ['./app.component.css', './font-styles.css', './tooltip.css', './media-queries.css']
 })
 export class AppComponent {
   title = 'portfolio';
