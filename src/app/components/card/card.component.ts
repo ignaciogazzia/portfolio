@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [NgFor, NgIf],
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css', '../../app.component.css', '../../font-styles.css']
+  styleUrls: ['./card.component.css', '../../app.component.css', '../../font-styles.css','../../media-queries.css']
 })
 export class CardComponent {
   @Input() role : string;

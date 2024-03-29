@@ -93,6 +93,9 @@
     div.tech-group-container{
         margin-top: 20px;
     }
+    div.margin-right-20.width-50 {
+        width: 100%;
+    }
 }
 
 @media(width < 740px){
@@ -102,5 +105,15 @@
     div.content{
         margin-left: 40px;
     }
-    /* TODO: agregar lla barra superior */
+    div nav#menu-mobile{
+        display: flex;
+        width: 95%;
+    }
+    .margin-right-15{
+        margin-right: 15px;
+    }
+    img.download-icon{
+        width: 35px;
+        height: 35px;
+    }
 }

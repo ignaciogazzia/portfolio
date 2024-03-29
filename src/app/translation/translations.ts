@@ -5,6 +5,7 @@ export const translations: Translation = {
         "title.id": "¡Hola!",
         "portfolio.id": "PORTAFOLIO",
         "cv.url": "https://drive.google.com/file/d/1WXdiFy5OhWwS-gbjWba_jGqJUfjbcfDT/view?usp=sharing",
+        "cv.id": "CV",
 
         "home.id": "Inicio",
         "experience.id": "Experiencia",
@@ -75,6 +76,7 @@ export const translations: Translation = {
         "title.id": "¡Hi there!",
         "portfolio.id": "PORTFOLIO",
         "cv.url": "https://drive.google.com/file/d/1dbBhGfsEpyLOjZ6OhlG5pOWe6JUbD8P3/view?usp=sharing",
+        "cv.id": "Resume",
 
         "home.id": "Home",
         "experience.id": "Experience",

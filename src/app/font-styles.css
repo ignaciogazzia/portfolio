@@ -54,3 +54,7 @@
 .white{
     color: var(--white);
 }
+
+.font-dark {
+    color: var(--font-dark); 
+}

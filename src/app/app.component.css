@@ -27,7 +27,6 @@
     background-color: transparent;    
 }
 
-
 .card-cv {
     border: 0.5px solid var(--blanco);
     border-radius: 9px;
@@ -171,8 +170,6 @@ section.col-distribution {
     color: var(--font-dark);
 }
 
-
-
 .otw-role-container {
     display: flex;
     margin-bottom: 20px;
@@ -204,7 +201,6 @@ section.col-distribution {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
 }
 
 .margin-top-higher {
@@ -331,4 +327,16 @@ app-card {
     border: 1px solid var(--font-dark);
     border-radius: 8px;
     padding: 7px;
+}
+
+div nav#menu-mobile{
+    display: none;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.pointer{
+    cursor: pointer;
 }
