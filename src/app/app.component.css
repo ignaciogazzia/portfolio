@@ -153,18 +153,6 @@ section.col-distribution {
     padding-right: 80px;
 }
 
-.resumen-title-orange {
-    background: var(--orange-gradient);    
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.resumen-title-blue {
-    background: var(--blue-gradient);    
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 .language-icon {
     width: 30px;
     color: var(--font-dark);
