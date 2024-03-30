@@ -128,10 +128,6 @@
     .margin-top-minus-5{
         margin-top: -5px;
     }
-    p.text-detail.margin-bottom {
-        text-align: center;
-        margin-left: 30px;
-    }
     div.portafolio-container {
         display: flex;
         justify-content: center;
@@ -141,10 +137,9 @@
         margin-top: 0px;
     }
     .card-nav-bottom-container.is-visible {
-        height: 100%; /* Ajusta esto según el contenido de tu menú */
+        height: 100%;
         display: flex;
-        z-index: 1;
-        
+        z-index: 1;        
     }
     input#check, #close {
         display: none;
@@ -161,6 +156,21 @@
     #close.show {
         display: flex;
         z-index: 10;
-    }
+    } 
+}
 
+@media(width < 450px){
+    h1.resumen-title-orange {
+        font-size: 2rem;
+    }
+    h1.resumen-title-blue{
+        font-size: 2rem;
+    }
+    div.content{
+        margin-left: 25px;
+        padding: 25px 25px 0px 0px;
+    }
+    section.card-section {
+        padding: 32px;
+    }
 }
