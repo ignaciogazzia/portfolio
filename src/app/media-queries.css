@@ -103,12 +103,11 @@
         display: none;
     }
     div.card-nav-bottom-container{
+        display: none;
         background-color: var(--nav-hover);
         right: 0;
         width: -webkit-fill-available;
-        height: 100%;
         padding: 0px 40px 40px 40px;
-
         justify-content: center;
         align-items: center;
     }
@@ -123,8 +122,8 @@
         margin-right: 15px;
     }
     img.download-icon{
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
     .margin-top-minus-5{
         margin-top: -5px;
@@ -141,7 +140,30 @@
         gap: 25px;
         margin-top: 0px;
     }
-    div#toggle{
+    .card-nav-bottom-container.is-visible {
+        height: 100%; /* Ajusta esto según el contenido de tu menú */
+        display: flex;
         z-index: 1;
+        
     }
+    input#check, #close {
+        display: none;
+    }
+    #toggle{
+        z-index: 10;
+    }
+    #toggle.hide{
+        display: none;
+    } 
+    #close.pin{
+        position: fixed;
+    }
+    #close.hide{
+        display: none;
+    }
+    #close.show {
+        display: flex;
+        z-index: 10;
+    }
+
 }

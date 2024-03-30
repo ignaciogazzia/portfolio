@@ -25,6 +25,7 @@ export class AppComponent {
     this.languageSubscription = this.langService.currentLanguage.subscribe(lang => {
       this.currentLanguage = lang;
     });
+    // this.listenToChange();
   }
 
   setActivo(nombre: string): void {
@@ -42,4 +43,20 @@ export class AppComponent {
   translateText(identifier: string) : string {
     return this.translatePipe.transform(identifier);
   }
+  // listenToChange(){
+  //   document.addEventListener('DOMContentLoaded', (event) => {
+  //     const checkBox = document.getElementById('check');
+  //     const menuContainer = document.querySelector('.card-nav-bottom-container');
+  
+  //     checkBox?.addEventListener('change', ()=> {
+  //       if(checkBox.ariaChecked) {
+  //         // Cuando el checkbox está marcado, muestra el menú
+  //         menuContainer?.classList.add('is-visible');
+  //       } else {
+  //         // Cuando el checkbox no está marcado, oculta el menú
+  //         menuContainer?.classList.remove('is-visible');
+  //       }
+  //     });
+  //   });
+  // }
 }
