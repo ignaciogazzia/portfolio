@@ -152,14 +152,11 @@
     #toggle{
         z-index: 10;
     }
-    #toggle.hide{
+    .hide{
         display: none;
-    } 
+    }
     #close.pin{
         position: fixed;
-    }
-    #close.hide{
-        display: none;
     }
     #close.show {
         display: flex;
