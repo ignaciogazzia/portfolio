@@ -17,4 +17,5 @@ export class CardComponent {
   @Input() skills : string[];
   @Input() imgRoute : string;
   @Input() redirectTo : string;
+  @Input() badgeColor : 'blue' | 'orange' = 'blue';
 }

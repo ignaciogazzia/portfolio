@@ -26,7 +26,7 @@
         </div>
         <p class="text-description margin-top-10">{{description}}</p>
         <div class="flex-start-center flex-wrap gap-10 margin-top-10">
-            <div class="center-items-row badge" *ngFor="let skill of skills">
+            <div class="center-items-row badge" [class.orange]="badgeColor === 'orange'" *ngFor="let skill of skills">
                 <p class="text-description white">{{skill}}</p>
             </div>
         </div>

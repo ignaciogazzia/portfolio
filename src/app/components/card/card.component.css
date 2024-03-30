@@ -35,6 +35,9 @@ img#card-image {
     border-radius: 6px;
     padding: 0px 10px 0px 10px;
 }
+.orange {
+    background-color: var(--orange-badge);
+}
 
 .pin-top-left {
     position: absolute;
