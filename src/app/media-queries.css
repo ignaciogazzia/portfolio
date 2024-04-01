@@ -1,6 +1,6 @@
 @media (width < 1250px)  {
     .card-nav-bottom-container {
-        width: 150px;
+        width: 150px; 
     }
     p.margin-right-7 {
         font-size: 13px;
@@ -61,7 +61,7 @@
         text-align: center;
     }
     p.text-description.margin-top-10{
-        text-align: center;
+        text-align: justify;
     }
     section div.flex-start-start{
         align-items: center;
@@ -95,6 +95,12 @@
     }
     div.margin-right-20.width-50 {
         width: 100%;
+    }
+    svg.icon-small-15{
+        margin-top: 8px;
+    }
+    p.text-description.margin-top{
+        text-align: justify;
     }
 }
 
@@ -156,7 +162,10 @@
     #close.show {
         display: flex;
         z-index: 10;
-    } 
+    }
+    div p.text-detail.margin-bottom{
+        margin-left: 35px;
+    }
 }
 
 @media(width < 450px){
@@ -172,5 +181,5 @@
     }
     section.card-section {
         padding: 32px;
-    }
+    }    
 }
