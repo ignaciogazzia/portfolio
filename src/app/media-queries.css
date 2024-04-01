@@ -60,9 +60,6 @@
     div h3.margin-right-7 {
         text-align: center;
     }
-    p.text-description.margin-top-10{
-        text-align: justify;
-    }
     section div.flex-start-start{
         align-items: center;
     }
@@ -99,9 +96,10 @@
     svg.icon-small-15{
         margin-top: 8px;
     }
-    p.text-description.margin-top{
-        text-align: justify;
+    div.margin-right-30.width-50{ 
+        width: 100%;
     }
+
 }
 
 @media(width < 740px){
