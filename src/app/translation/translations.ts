@@ -17,7 +17,7 @@ export const translations: Translation = {
         "role.complete.id": "INGENIERO EN SISTEMAS & FULL STACK DEVELOPER",        
         "greet.id": "¡Hola! Bienvenido a mi",
         "portfolio.web.id": "Portafolio Web",
-        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones web y móviles utilizando el stack de Angular, .NET Core, ASP.NET y realizando scripts en Python para automatizar procesos. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
+        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones web y móviles utilizando el stack de Angular, .NET Core, ASP.NET y realizando scripts en Python para la automatización de procesos. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
         "entities.id": "ENTIDADES DONDE CRECÍ PROFESIONALMENTE",
         "graduation.id": "GRADUACIÓN 2024 (UTN)",
 

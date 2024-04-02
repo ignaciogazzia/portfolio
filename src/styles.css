@@ -71,9 +71,3 @@ p {
 .show-animation {
     opacity: 1;
 }
-
-/* @media (prefers-reduced-motion) {
-    .hidden {
-      transition: none;
-    }
-} */

@@ -328,3 +328,11 @@ div nav#nav-mobile{
 .pointer{
     cursor: pointer;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.nowrap-space{
+    white-space: nowrap;
+}
