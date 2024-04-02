@@ -14,10 +14,7 @@
     position: fixed;
 }
 
-.switch-to-english-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div#lang-switch {
     cursor: pointer;
     position: relative;
     top: 100px;
@@ -123,9 +120,9 @@ p.margin-top {
     width: 100%;
     padding: 40px 40px 0px 0px;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
     margin-left: 280px;
 }
 
@@ -206,11 +203,7 @@ section.col-distribution {
     flex-direction: column;
 }
 
-.tech-group-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.gap-20 {
     gap: 20px;
 }
 
@@ -226,7 +219,6 @@ section.col-distribution {
 
 .less-width-40 {
     width: 40%;
-    margin-right: 20px;
 }
 
 .flex-start-center {
@@ -274,11 +266,6 @@ section.col-distribution {
 }
 .margin-bottom-10 {
     margin-bottom: 10px;
-}
-app-card {
-    background: var(--nav-hover);
-    border-radius: 16px;
-    margin-bottom: 20px;
 }
 
 .flex-wrap {

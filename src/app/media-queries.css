@@ -87,7 +87,7 @@
     div.outer-div{
         margin-right: 20px!important;
     }
-    div.tech-group-container{
+    div#stack-group{
         margin-top: 20px;
     }
     div.margin-right-20.width-50 {
@@ -100,11 +100,10 @@
         width: 100%;
         margin-right: 0px;
     }
-
 }
 
 @media(width < 740px){
-    div.switch-to-english-div, div.card-cv{
+    div#lang-switch, div.card-cv{
         display: none;
     }
     div.card-nav-bottom-container{
@@ -161,6 +160,9 @@
     #close.show {
         display: flex;
         z-index: 10;
+    }
+    #port-menu-title{
+        margin-left: 30px;
     }
 }
 

@@ -63,6 +63,12 @@ p {
     color: var(--font-dark);
 }
 
+app-card {
+    background: var(--nav-hover);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
 .hidden {
     opacity: 0;
     transition: all 1s;

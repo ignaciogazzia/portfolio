@@ -21,7 +21,7 @@
       </div>
       
       <div class="portafolio-container">
-        <p class="text-detail margin-bottom">{{ 'portfolio.id' | translate }}</p>
+        <p id="port-menu-title" class="text-detail margin-bottom">{{ 'portfolio.id' | translate }}</p>
         <a href="#home" class="no-decoration">
           <div class="boton-nav boton-nav-activo" [class.boton-nav-activo]="activo === 'home'" (click)="setActivo('home')">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
@@ -64,7 +64,7 @@
         </a>
       </div>
     </nav>
-    <div class="switch-to-english-div" (click)="changeLanguage()">
+    <div id="lang-switch" class="center-items-row" (click)="changeLanguage()">
       <p class="margin-right-7" *ngIf="currentLanguage === 'ES'">Switch to English</p>
       <p class="margin-right-7" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="language-icon">
@@ -140,10 +140,10 @@
 
     <!-- Technologies -->
     <section class="card-section center-items-row hidden">
-      <div class="less-width-40">
+      <div class="less-width-40 margin-right-20">
         <h2 class="line-height">{{ 'tech.stack.id' | translate }}</h2>
       </div>
-      <div class="tech-group-container">
+      <div id="stack-group" class="center-items-row flex-wrap gap-20">
         <div data-tooltip="Angular"><img data-tooltip="Angular" class="icon-tech" src="../assets/icons/angular.svg" alt=""></div>
         <div data-tooltip="Ionic (Angular)"><img class="icon-tech" src="../assets/icons/ionic.svg" alt=""></div>
         <div data-tooltip=".NET Core & ASP.NET"><img class="icon-tech" src="../assets/icons/dotnet.svg" alt=""></div>
