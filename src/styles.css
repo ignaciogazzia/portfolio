@@ -72,8 +72,8 @@ p {
     opacity: 1;
 }
 
-@media (prefers-reduced-motion) {
+/* @media (prefers-reduced-motion) {
     .hidden {
       transition: none;
     }
-  }
+} */
