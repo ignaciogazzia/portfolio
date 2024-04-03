@@ -157,7 +157,7 @@ section.col-distribution {
 
 .otw-role-container {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .divider {
@@ -287,7 +287,7 @@ section.col-distribution {
 }
 
 .image-container #footer-image {
-    width: 200px;
+    width: 190px;
     height: 250px;
     border-radius: 12px;
 }
