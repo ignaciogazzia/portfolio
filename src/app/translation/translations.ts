@@ -87,7 +87,7 @@ export const translations: Translation = {
         "view.cv.id": "Resume",
         "title.id": "¡Hi there!",
         "portfolio.id": "PORTFOLIO",
-        "cv.url": "https://drive.google.com/file/d/1HNKEPiLBKrSEBEG1eql6nPuzSDm2UB8u/view?usp=sharing",
+        "cv.url": "https://drive.google.com/file/d/1MbkAhQyHM0S38wQGg8y0ykMOwPyEe8dR/view?usp=sharing",
         "cv.id": "Resume",
 
         "home.id": "Home",
