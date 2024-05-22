@@ -1,9 +1,12 @@
+* {
+    scroll-behavior: smooth!important;
+}
 
 html, body {
     height: 100%;
     width: fit-content;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 * {
