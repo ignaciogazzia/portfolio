@@ -48,7 +48,7 @@ export const translations: Translation = {
         "mauad.start.id": "Mar 2024",
         "mauad.end.id": "Ago 2024",
         "mauad.desc.id": "Participé en un proyecto de corto plazo como desarrollador Full Stack, agregando nuevas funcionalidades y mejorando la experiencia de usuario en sistema web y móvil. Añadí funcionalidades a un sistema web con frontend en Angular, utilizando Material UI como biblioteca de estilos. Implementé el rediseño de app móvil en Ionic (Angular), mejorando su usabilidad y refactorizando código legado. Implementé soluciones para manejo offline de la app, enfrentando y resolviendo desafíos técnicos relacionados con la sincronización de datos. Trabajé con multiples microservicios, añadiendo funcionalidades a las distintas REST APIs en ASP.NET, dentro de una arquitectura Domain Driven Design. Realice migraciones de base de datos con Entity Framework.",
-        
+
         "cids.role.id": "Desarrollador Full Stack",
         "cids.title.id": "Ministerio de Justicia",
         "cids.start.id": "Mar 2024",
@@ -144,7 +144,7 @@ export const translations: Translation = {
         "mauad.start.id": "Mar 2024",
         "mauad.end.id": "Aug 2024",
         "mauad.desc.id": "I participated in a short-term project as a Full Stack developer, adding new functionalities and improving the user experience in the web and mobile system. Added functionalities to a frontend web system in Angular, using UI Material as a style library. Implemented the re-design of the mobile app in Ionic (Angular), enhancing its usability and refactoring legacy code. Implemented solutions for offline management of the app, facing and solving technical challenges related to data synchronization. Worked with multiple micro services, adding functionalities to REST APIs in ASP.NET, within a Domain Driven Design architecture. Performed database migrations using Entity Framework.",
-        
+
         "cids.role.id": "Full Stack Developer",
         "cids.title.id": "Ministry of Justice",
         "cids.start.id": "Mar 2024",
