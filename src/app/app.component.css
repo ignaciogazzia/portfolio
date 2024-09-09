@@ -14,12 +14,6 @@
     position: fixed;
 }
 
-div#lang-switch {
-    cursor: pointer;
-    position: relative;
-    top: 100px;
-}
-
 .nav-bar {
     background-color: transparent;
 }
@@ -71,6 +65,10 @@ div#lang-switch {
 
 .portafolio-container {
     margin-top: 50px;
+}
+
+.fill-height {
+    height: -webkit-fill-available;
 }
 
 .boton-nav {

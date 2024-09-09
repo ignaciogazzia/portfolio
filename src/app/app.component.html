@@ -2,7 +2,7 @@
 
 <main class="main">
   <!-- Barra lateral -->
-  <div class="card-nav-bottom-container">
+  <div class="card-nav-bottom-container fill-height">
     <nav class="nav-bar">
       <div class="card-cv">
         <div class="center-items-row">
@@ -78,7 +78,7 @@
         </a>
       </div>
     </nav>
-    <div id="lang-switch" class="center-items-row" (click)="changeLanguage()">
+    <div id="lang-switch" class="center-items-row pointer" (click)="changeLanguage()">
       <p class="margin-right-7" *ngIf="currentLanguage === 'ES'">Switch to English</p>
       <p class="margin-right-7" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
