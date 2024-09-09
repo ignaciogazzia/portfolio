@@ -203,6 +203,12 @@
           <p class="text-description">{{ 'working.description.id' | translate }}</p>
         </div>
       </div>
+      <app-card role="{{ translateText('cids.role.id') }}" title="{{ translateText('cids.title.id') }}"
+        dateStart="{{ translateText('cids.start.id') }}" dateEnd="{{ translateText('cids.end.id') }}"
+        redirectTo="https://www.cba.gov.ar/organismo/ministerio-de-justicia-y-trabajo/"
+        description="{{ translateText('cids.desc.id') }}" [skills]="['Angular','.NET', 'Oracle PL/SQL']"
+        imgRoute="../../../assets/cids-logo.png">
+      </app-card>
       <app-card role="{{ translateText('mauad.role.id') }}" title="{{ translateText('mauad.title.id') }}"
         dateStart="{{ translateText('mauad.start.id') }}" dateEnd="{{ translateText('mauad.end.id') }}"
         redirectTo="https://www.linkedin.com/in/mauad-srl-81b43a103/" description="{{ translateText('mauad.desc.id') }}"

@@ -48,7 +48,12 @@ export const translations: Translation = {
         "mauad.start.id": "Mar 2024",
         "mauad.end.id": "Ago 2024",
         "mauad.desc.id": "Participé en un proyecto de corto plazo como desarrollador Full Stack, agregando nuevas funcionalidades y mejorando la experiencia de usuario en sistema web y móvil. Añadí funcionalidades a un sistema web con frontend en Angular, utilizando Material UI como biblioteca de estilos. Implementé el rediseño de app móvil en Ionic (Angular), mejorando su usabilidad y refactorizando código legado. Implementé soluciones para manejo offline de la app, enfrentando y resolviendo desafíos técnicos relacionados con la sincronización de datos. Trabajé con multiples microservicios, añadiendo funcionalidades a las distintas REST APIs en ASP.NET, dentro de una arquitectura Domain Driven Design. Realice migraciones de base de datos con Entity Framework.",
-
+        
+        "cids.role.id": "Desarrollador Full Stack",
+        "cids.title.id": "Ministerio de Justicia",
+        "cids.start.id": "Mar 2024",
+        "cids.end.id": "Actualidad",
+        "cids.desc.id": "Me desempeño como desarrollador Full Stack en el Ministerio de Justicia de la Provincia de Córdoba, participando en el desarrollo y mantenimiento de sistemas para el sector público. Desarrollo nuevas funcionalidades en el frontend utilizando Angular y Bootstrap. Implemento procedimientos de base de datos en Oracle PL/SQL y servicios backend con .NET Core, además de realizar corrección de bugs y brindar soporte de aplicación a usuarios internos.",
 
         "projects.title.id": "Proyectos Seleccionados",
         "projects.description.id": "Una colección de proyectos de desarrollo de software que destaco como mis favoritos",
