@@ -12,53 +12,67 @@
         <p class="text-dark">{{ 'rol.id' | translate }}</p>
         <div class="download-container">
           <a [href]="('cv.url' | translate)" target="_blank" class="no-decoration">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="download-icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="download-icon">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
           </a>
-            <p class="lighter-smaller">{{ 'view.cv.id' | translate }}</p>
-        </div>      
+          <p class="lighter-smaller">{{ 'view.cv.id' | translate }}</p>
+        </div>
       </div>
-      
+
       <div class="portafolio-container">
         <p id="port-menu-title" class="text-detail margin-bottom">{{ 'portfolio.id' | translate }}</p>
         <a href="#home" class="no-decoration">
-          <div class="boton-nav boton-nav-activo" [class.boton-nav-activo]="activo === 'home'" (click)="setActivo('home')">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+          <div class="boton-nav boton-nav-activo" [class.boton-nav-activo]="activo === 'home'"
+            (click)="setActivo('home')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-nav">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
             </svg>
             <p class="text-dark-big margin-left">{{ 'home.id' | translate }}</p>
           </div>
         </a>
         <a href="#experience" class="no-decoration">
-          <div class="boton-nav" id="experiencia" [class.boton-nav-activo]="activo === 'experiencia'" (click)="setActivo('experiencia')">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
-            </svg>        
+          <div class="boton-nav" id="experiencia" [class.boton-nav-activo]="activo === 'experiencia'"
+            (click)="setActivo('experiencia')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-nav">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
             <p class="text-dark-big margin-left">{{ 'experience.id' | translate }}</p>
           </div>
         </a>
         <a href="#projects" class="no-decoration">
           <div class="boton-nav" [class.boton-nav-activo]="activo === 'proyectos'" (click)="setActivo('proyectos')">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
-            </svg>              
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-nav">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+            </svg>
             <p class="text-dark-big margin-left">{{ 'projects.id' | translate }}</p>
           </div>
         </a>
         <a href="#education" class="no-decoration">
           <div class="boton-nav" [class.boton-nav-activo]="activo === 'educacion'" (click)="setActivo('educacion')">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-nav">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
             </svg>
             <p class="text-dark-big margin-left">{{ 'education.id' | translate }}</p>
           </div>
         </a>
         <a href="#about" class="no-decoration">
           <div class="boton-nav" [class.boton-nav-activo]="activo === 'contacto'" (click)="setActivo('contacto')">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-nav">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
-            </svg>                      
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-nav">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+            </svg>
             <p class="text-dark-big margin-left">{{ 'contact.id' | translate }}</p>
           </div>
         </a>
@@ -67,9 +81,11 @@
     <div id="lang-switch" class="center-items-row" (click)="changeLanguage()">
       <p class="margin-right-7" *ngIf="currentLanguage === 'ES'">Switch to English</p>
       <p class="margin-right-7" *ngIf="currentLanguage === 'EN'">Ver en Español</p>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="language-icon">
-        <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
-      </svg>      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="language-icon">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+      </svg>
     </div>
   </div>
 
@@ -81,17 +97,21 @@
         </div>
         <div class="center-items-row flex-column">
           <a [href]="('cv.url' | translate)" target="_blank" class="no-decoration">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="download-icon font-dark">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="download-icon font-dark">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
           </a>
-            <p class="lighter-smaller font-dark margin-top-minus-5">{{ 'cv.id' | translate }}</p>
+          <p class="lighter-smaller font-dark margin-top-minus-5">{{ 'cv.id' | translate }}</p>
         </div>
       </div>
       <div class="flex-start-center">
         <div class="center-items-row flex-column margin-right-15 pointer" (click)="changeLanguage()">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="language-icon">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="language-icon">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
           </svg>
           <p class="lighter-smaller font-dark">ES/EN</p>
         </div>
@@ -100,7 +120,8 @@
           <img src="../assets/icons/burger.svg" alt="" class="download-icon">
         </label>
         <label id="close" for="check">
-          <svg class="download-icon font-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <svg class="download-icon font-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
         </label>
@@ -150,7 +171,8 @@
         <h2 class="line-height">{{ 'tech.stack.id' | translate }}</h2>
       </div>
       <div id="stack-group" class="center-items-row flex-wrap gap-20">
-        <div data-tooltip="Angular"><img data-tooltip="Angular" class="icon-tech" src="../assets/icons/angular.svg" alt=""></div>
+        <div data-tooltip="Angular"><img data-tooltip="Angular" class="icon-tech" src="../assets/icons/angular.svg"
+            alt=""></div>
         <div data-tooltip="Ionic (Angular)"><img class="icon-tech" src="../assets/icons/ionic.svg" alt=""></div>
         <div data-tooltip=".NET Core & ASP.NET"><img class="icon-tech" src="../assets/icons/dotnet.svg" alt=""></div>
         <div data-tooltip="Python Scripting"><img class="icon-tech" src="../assets/icons/python.svg" alt=""></div>
@@ -169,8 +191,10 @@
       <div class="flex-start-center margin-bottom-20">
         <div class="outer-div center-items-row margin-right-20">
           <div class="inner-div blue-border center-items-row">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
             </svg>
           </div>
         </div>
@@ -179,44 +203,27 @@
           <p class="text-description">{{ 'working.description.id' | translate }}</p>
         </div>
       </div>
-      <app-card 
-      role="{{ translateText('mauad.role.id') }}"
-      title="{{ translateText('mauad.title.id') }}"
-      dateStart="{{ translateText('mauad.start.id') }}"
-      dateEnd="{{ translateText('mauad.end.id') }}"
-      redirectTo="https://www.linkedin.com/in/mauad-srl-81b43a103/"
-      description="{{ translateText('mauad.desc.id') }}"
-      [skills]="['Angular','Ionic','.NET', 'Entity Framework']"
-      imgRoute="../../../assets/mauad-logo.jpg">
+      <app-card role="{{ translateText('mauad.role.id') }}" title="{{ translateText('mauad.title.id') }}"
+        dateStart="{{ translateText('mauad.start.id') }}" dateEnd="{{ translateText('mauad.end.id') }}"
+        redirectTo="https://www.linkedin.com/in/mauad-srl-81b43a103/" description="{{ translateText('mauad.desc.id') }}"
+        [skills]="['Angular','Ionic','.NET', 'Entity Framework']" imgRoute="../../../assets/mauad-logo.jpg">
       </app-card>
-      <app-card 
-      role="{{ translateText('dojo.role.id') }}"
-      title="{{ translateText('dojo.title.id') }}"
-      dateStart="{{ translateText('dojo.start.id') }}"
-      dateEnd="{{ translateText('dojo.end.id') }}"
-      redirectTo="https://manage-dojo.com/"
-      description="{{ translateText('dojo.desc.id') }}"
-      [skills]="['Angular','.NET','Ionic', 'MySQL', 'Entity Framework', 'Docker', 'AWS', 'Figma']"
-      imgRoute="../../../assets/dojo-gaming.webp">
+      <app-card role="{{ translateText('dojo.role.id') }}" title="{{ translateText('dojo.title.id') }}"
+        dateStart="{{ translateText('dojo.start.id') }}" dateEnd="{{ translateText('dojo.end.id') }}"
+        redirectTo="https://manage-dojo.com/" description="{{ translateText('dojo.desc.id') }}"
+        [skills]="['Angular','.NET','Ionic', 'MySQL', 'Entity Framework', 'Docker', 'AWS', 'Figma']"
+        imgRoute="../../../assets/dojo-gaming.webp">
       </app-card>
-      <app-card 
-      role="{{ translateText('freelance.role.id') }}"
-      title="{{ translateText('freelance.title.id') }}"
-      dateStart="{{ translateText('freelance.start.id') }}"
-      dateEnd="{{ translateText('freelance.end.id') }}"
-      description="{{ translateText('freelance.desc.id') }}"
-      [skills]="['Python','Youtube API','Google Sheets API']"
-      imgRoute="../../../assets/icons/python.svg">
+      <app-card role="{{ translateText('freelance.role.id') }}" title="{{ translateText('freelance.title.id') }}"
+        dateStart="{{ translateText('freelance.start.id') }}" dateEnd="{{ translateText('freelance.end.id') }}"
+        description="{{ translateText('freelance.desc.id') }}" [skills]="['Python','Youtube API','Google Sheets API']"
+        imgRoute="../../../assets/icons/python.svg">
       </app-card>
-      <app-card 
-      role="{{ translateText('clicoh.role.id') }}"
-      title="{{ translateText('clicoh.title.id') }}"
-      dateStart="{{ translateText('clicoh.start.id') }}"
-      dateEnd="{{ translateText('clicoh.end.id') }}"
-      redirectTo="https://clicoh.com/"
-      description="{{ translateText('clicoh.desc.id') }}"
-      [skills]="['Python','Postman','MySQL', 'Jira', 'WooCommerce API', 'MercadoLibre API']"
-      imgRoute="../../../assets/clicoh-logo.webp">
+      <app-card role="{{ translateText('clicoh.role.id') }}" title="{{ translateText('clicoh.title.id') }}"
+        dateStart="{{ translateText('clicoh.start.id') }}" dateEnd="{{ translateText('clicoh.end.id') }}"
+        redirectTo="https://clicoh.com/" description="{{ translateText('clicoh.desc.id') }}"
+        [skills]="['Python','Postman','MySQL', 'Jira', 'WooCommerce API', 'MercadoLibre API']"
+        imgRoute="../../../assets/clicoh-logo.webp">
       </app-card>
     </section>
 
@@ -225,9 +232,11 @@
       <div class="flex-start-center margin-bottom-20">
         <div class="outer-div center-items-row margin-right-20">
           <div class="inner-div orange-border center-items-row">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
-            </svg> 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+            </svg>
           </div>
         </div>
         <div>
@@ -235,26 +244,19 @@
           <p class="text-description">{{ 'projects.description.id' | translate }}</p>
         </div>
       </div>
-      <app-card 
-      role="{{ translateText('microservices.role.id') }}"
-      title="{{ translateText('microservices.title.id') }}"
-      dateStart="{{ translateText('microservices.start.id') }}"
-      dateEnd="{{ translateText('microservices.end.id') }}"
-      redirectTo="https://github.com/ignaciogazzia/Microservices-Dotnet/"
-      description="{{ translateText('microservices.desc.id') }}"
-      [skills]="['ASP.NET','Docker', 'MySQL', 'AWS EC2', 'YARP', 'Entity Framework']"
-      imgRoute="../../../assets/icons/dotnet.svg"
-      badgeColor="orange">
+      <app-card role="{{ translateText('microservices.role.id') }}"
+        title="{{ translateText('microservices.title.id') }}" dateStart="{{ translateText('microservices.start.id') }}"
+        dateEnd="{{ translateText('microservices.end.id') }}"
+        redirectTo="https://github.com/ignaciogazzia/Microservices-Dotnet/"
+        description="{{ translateText('microservices.desc.id') }}"
+        [skills]="['ASP.NET','Docker', 'MySQL', 'AWS EC2', 'YARP', 'Entity Framework']"
+        imgRoute="../../../assets/icons/dotnet.svg" badgeColor="orange">
       </app-card>
-      <app-card 
-      role="{{ translateText('dotnetdev.role.id') }}"
-      title="{{ translateText('dotnetdev.title.id') }}"
-      dateStart="{{ translateText('dotnetdev.start.id') }}"
-      dateEnd="{{ translateText('dotnetdev.end.id') }}"
-      description="{{ translateText('dotnetdev.desc.id') }}"
-      [skills]="['.NET Framework','Windows Forms', 'MySQL', 'Entity Framework']"
-      imgRoute="../../../assets/icons/dotnet.svg"
-      badgeColor="orange">
+      <app-card role="{{ translateText('dotnetdev.role.id') }}" title="{{ translateText('dotnetdev.title.id') }}"
+        dateStart="{{ translateText('dotnetdev.start.id') }}" dateEnd="{{ translateText('dotnetdev.end.id') }}"
+        description="{{ translateText('dotnetdev.desc.id') }}"
+        [skills]="['.NET Framework','Windows Forms', 'MySQL', 'Entity Framework']"
+        imgRoute="../../../assets/icons/dotnet.svg" badgeColor="orange">
       </app-card>
     </section>
 
@@ -263,8 +265,10 @@
       <div class="flex-start-center margin-bottom-20">
         <div class="outer-div center-items-row margin-right-20">
           <div class="inner-div blue-border center-items-row">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-section">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-section">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
             </svg>
           </div>
         </div>
@@ -274,27 +278,18 @@
         </div>
       </div>
       <div class="center-items-row flex-wrap">
-        <app-card class="margin-right-20"
-        title="{{ translateText('utn.title.id') }}"
-        dateStart="{{ translateText('utn.start.id') }}"
-        dateEnd="{{ translateText('utn.end.id') }}"
-        description="{{ translateText('utn.desc.id') }}"
-        >
+        <app-card class="margin-right-20" title="{{ translateText('utn.title.id') }}"
+          dateStart="{{ translateText('utn.start.id') }}" dateEnd="{{ translateText('utn.end.id') }}"
+          description="{{ translateText('utn.desc.id') }}">
         </app-card>
-        <app-card class="margin-right-20"
-        title="{{ translateText('mobyus.title.id') }}"
-        dateStart="{{ translateText('mobyus.start.id') }}"
-        dateEnd="{{ translateText('mobyus.end.id') }}"
-        description="{{ translateText('mobyus.desc.id') }}"
-        >
-      </app-card>
-      <app-card class="margin-right-20"
-      title="{{ translateText('wallace.title.id') }}"
-      dateStart="{{ translateText('wallace.start.id') }}"
-      dateEnd="{{ translateText('wallace.end.id') }}"
-      description="{{ translateText('wallace.desc.id') }}"
-      >
-      </app-card>
+        <app-card class="margin-right-20" title="{{ translateText('mobyus.title.id') }}"
+          dateStart="{{ translateText('mobyus.start.id') }}" dateEnd="{{ translateText('mobyus.end.id') }}"
+          description="{{ translateText('mobyus.desc.id') }}">
+        </app-card>
+        <app-card class="margin-right-20" title="{{ translateText('wallace.title.id') }}"
+          dateStart="{{ translateText('wallace.start.id') }}" dateEnd="{{ translateText('wallace.end.id') }}"
+          description="{{ translateText('wallace.desc.id') }}">
+        </app-card>
       </div>
     </section>
 
@@ -327,7 +322,8 @@
               <img class="icon-button white margin-right-7" src="../assets/icons/phone.svg" alt="">
               <p class="text-description white">+54 3541 583265</p>
             </div>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ignaciogazzia@hotmail.es" target="_blank" class="no-decoration">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ignaciogazzia@hotmail.es" target="_blank"
+              class="no-decoration">
               <div class="center-items-row button margin-bottom-7 margin-right-7">
                 <img class="icon-button white margin-right-7" src="../assets/icons/mail.svg" alt="">
                 <p class="text-description white">ignaciogazzia&#64;hotmail.es</p>
@@ -335,7 +331,7 @@
             </a>
           </div>
         </div>
-        
+
       </div>
     </section>
     <div class="center-items-row margin-bottom-20">

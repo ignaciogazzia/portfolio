@@ -14,7 +14,7 @@ export const translations: Translation = {
         "contact.id": "Contacto",
 
         "otw.id": "Buscando empleo",
-        "role.complete.id": "Ingeniero & Desarrollador Full stack",        
+        "role.complete.id": "Ingeniero & Desarrollador Full stack",
         "greet.id": "¡Hola! Bienvenido a mi",
         "portfolio.web.id": "Portafolio Web",
         "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones web y móviles utilizando el stack de Angular, .NET Core, ASP.NET y realizando scripts en Python para la automatización de procesos. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
@@ -36,13 +36,13 @@ export const translations: Translation = {
         "freelance.start.id": "Sep 2023",
         "freelance.end.id": "Dic 2023",
         "freelance.desc.id": "Diseñé e implementé un sistema de automatización para el envío masivo de correos electrónicos destinado a una agencia de marketing, con el objetivo de incrementar la cantidad de leads potenciales. Utilicé diversas librerías en Python para crear scripts eficientes y robustos. Integré la YoutubeAPI para obtener información valiosa para el negocio. Por último, realicé pruebas exhaustivas para asegurar la fiabilidad y eficiencia del sistema.",
-    
+
         "dojo.role.id": "Desarrollador Full Stack Angular & .NET",
         "dojo.title.id": "Dojo Gaming",
         "dojo.start.id": "2023",
         "dojo.end.id": "2024",
         "dojo.desc.id": "Proyecto Final de Ingeniería en Sistemas creado para Dojo Gaming, empresa que brinda el servicio de alquiler de consolas de videojuegos para entrenamiento de esports. Colaboré con el cliente para identificar y analizar requisitos del proyecto utilizando Scrum. Diseñé y desarrollé un sistema de gestión web y móvil con Angular e Ionic para el frontend, y ASP.NET Core para el backend. Creé APIs RESTful robustas siguiendo patrones de diseño en capas, asegurando escalabilidad y mantenibilidad. Implementé y gestioné bases de datos con Entity Framework y MySQL. Realicé prototipos de interfaces en Figma, asegurando una UX intuitiva y atractiva. Finalmente, configuré despliegues dockerizados en AWS utilizando RDS y EC2.",
-        
+
         "mauad.role.id": "Desarrollador Full Stack",
         "mauad.title.id": "MAUAD",
         "mauad.start.id": "Mar 2024",
@@ -72,12 +72,12 @@ export const translations: Translation = {
         "utn.start.id": "2018",
         "utn.end.id": "2024",
         "utn.desc.id": "Grado en Ingeniería en Sistemas de Información",
-        
+
         "wallace.title.id": "Wallace Academy of English",
         "wallace.start.id": "2008",
         "wallace.end.id": "2016",
         "wallace.desc.id": "Curso completo de idioma Inglés y certificado en nivel B1 (CEFR) de Cambridge English 2016",
-        
+
         "mobyus.title.id": "Academia de Idiomas Mobyus CVO (Bélgica)",
         "mobyus.start.id": "2018",
         "mobyus.end.id": "2019",
@@ -104,7 +104,7 @@ export const translations: Translation = {
         "contact.id": "About",
 
         "otw.id": "Open to work",
-        "role.complete.id": "ENGINEER & FULL STACK DEVELOPER",        
+        "role.complete.id": "ENGINEER & FULL STACK DEVELOPER",
         "greet.id": "Hi! Welcome to my",
         "portfolio.web.id": "Web Portfolio",
         "description.id": "I am Ignacio, a Software Engineer and Full Stack Developer. I have one year of experience in designing systems and creating Web and Mobile applications using the Angular, .NET Core, ASP.NET stack. Beyond my core stack, I possess a strong ability to write Python scripts to automate various processes, enhancing efficiency and solving complex problems. My passion for technology drives me to constantly explore new tools and methodologies to efficiently address challenges.",
@@ -112,7 +112,7 @@ export const translations: Translation = {
         "graduation.id": "GRADUATION 2024 (UTN)",
 
         "tech.stack.id": "Technologies I have worked with",
-        
+
         "working.title.id": "Working Experience",
         "working.description.id": "My professional experience in the field of software development and engineering",
 
@@ -121,7 +121,7 @@ export const translations: Translation = {
         "clicoh.start.id": "Jul 2022",
         "clicoh.end.id": "May 2023",
         "clicoh.desc.id": "For a year, I have been working as an IT Analyst, focusing on resolving incidents related to both Web and Mobile apps. My main objective was to identify the source of problems and solve them as quickly as possible. Additionally, I developed Python scripts to help the company automate various types of e-commerce processes. This was beneficial to the Support team, enabling them to become more effective in problem-solving. In my daily work I created SQL queries and performed API testing through Postman.",
-        
+
         "freelance.role.id": "Freelance Developer",
         "freelance.title.id": "Email Sending Automation",
         "freelance.start.id": "Sep 2023",
@@ -161,7 +161,7 @@ export const translations: Translation = {
         "wallace.start.id": "2008",
         "wallace.end.id": "2016",
         "wallace.desc.id": "Graduated from the complete English Course and passed the Cambridge B1 English Level Exam (CEFR) in 2016",
-        
+
         "mobyus.title.id": "Language Academy Mobyus CVO (Belgium)",
         "mobyus.start.id": "2018",
         "mobyus.end.id": "2019",
@@ -177,6 +177,6 @@ export const translations: Translation = {
 
 interface Translation {
     [key: string]: {
-      [key: string]: string;
+        [key: string]: string;
     };
-  }
+}

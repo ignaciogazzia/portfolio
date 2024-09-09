@@ -18,10 +18,10 @@ export class AppComponent {
   title = 'portfolio';
   activo: string = 'home'; // 'home' es el valor predeterminado
   currentLanguage: string;
-  private languageSubscription: Subscription; 
+  private languageSubscription: Subscription;
 
   constructor(private langService: LanguageService,
-    private translatePipe: TranslatePipe){
+    private translatePipe: TranslatePipe) {
     this.languageSubscription = this.langService.currentLanguage.subscribe(lang => {
       this.currentLanguage = lang;
     });
@@ -30,16 +30,16 @@ export class AppComponent {
   setActivo(nombre: string): void {
     this.activo = nombre;
   }
-  
-  changeLanguage(){
-    if(this.currentLanguage == 'ES'){
+
+  changeLanguage() {
+    if (this.currentLanguage == 'ES') {
       this.langService.changeLanguage("EN");
       return;
     }
     this.langService.changeLanguage("ES");
   }
 
-  translateText(identifier: string) : string {
+  translateText(identifier: string): string {
     return this.translatePipe.transform(identifier);
   }
 }
