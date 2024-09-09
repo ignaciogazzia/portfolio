@@ -17,7 +17,7 @@ export const translations: Translation = {
         "role.complete.id": "Ingeniero & Desarrollador Full stack",
         "greet.id": "¡Hola! Bienvenido a mi",
         "portfolio.web.id": "Portafolio Web",
-        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack. Tengo un año de experiencia diseñando sistemas y creando aplicaciones web y móviles utilizando el stack de Angular, .NET Core, ASP.NET y realizando scripts en Python para la automatización de procesos. Soy un apasionado por la tecnología y la utilizo constantemente para la resolución de problemas.",
+        "description.id": "Soy Ignacio, Ingeniero en Sistemas de Información y Desarrollador Full Stack especializado en la creación de aplicaciones web y móviles con Angular e Ionic. He trabajado en proyectos que van desde mejoras de experiencia de usuario hasta el rediseño y refactorizacón completa de aplicaciones, empleado prácticas de desarrollo moderno y optimización de rendimiento. Además, tengo experiencia en la construcción de backends robustos con .NET Core y en la implementación de soluciones que garanticen escalabilidad y seguridad. Me apasiona construir interfaces intuitivas y eficientes que resuelvan problemas reales y mejoren la experiencia del usuario.",
         "entities.id": "ENTIDADES DONDE CRECÍ PROFESIONALMENTE",
         "graduation.id": "GRADUACIÓN 2024 (UTN)",
 
@@ -112,7 +112,7 @@ export const translations: Translation = {
         "role.complete.id": "ENGINEER & FULL STACK DEVELOPER",
         "greet.id": "Hi! Welcome to my",
         "portfolio.web.id": "Web Portfolio",
-        "description.id": "I am Ignacio, a Software Engineer and Full Stack Developer. I have one year of experience in designing systems and creating Web and Mobile applications using the Angular, .NET Core, ASP.NET stack. Beyond my core stack, I possess a strong ability to write Python scripts to automate various processes, enhancing efficiency and solving complex problems. My passion for technology drives me to constantly explore new tools and methodologies to efficiently address challenges.",
+        "description.id": "I am Ignacio, a Systems Information Engineer and Full Stack Developer specialized in creating web and mobile applications using Angular and Ionic. I have worked on projects ranging from user experience improvements to complete redesigns and refactoring of applications, employing modern development practices and performance optimization. Additionally, I have experience in building robust backends with .NET Core and implementing solutions that ensure scalability and security. I am passionate about building intuitive and efficient interfaces that solve real problems and enhance user experience.",
         "entities.id": "Organizations where i developed professionally",
         "graduation.id": "GRADUATION 2024 (UTN)",
 
