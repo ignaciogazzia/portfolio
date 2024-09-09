@@ -180,6 +180,16 @@
         </div>
       </div>
       <app-card 
+      role="{{ translateText('mauad.role.id') }}"
+      title="{{ translateText('mauad.title.id') }}"
+      dateStart="{{ translateText('mauad.start.id') }}"
+      dateEnd="{{ translateText('mauad.end.id') }}"
+      redirectTo="https://www.linkedin.com/in/mauad-srl-81b43a103/"
+      description="{{ translateText('mauad.desc.id') }}"
+      [skills]="['Angular','Ionic','.NET', 'Entity Framework']"
+      imgRoute="../../../assets/mauad-logo.jpg">
+      </app-card>
+      <app-card 
       role="{{ translateText('dojo.role.id') }}"
       title="{{ translateText('dojo.title.id') }}"
       dateStart="{{ translateText('dojo.start.id') }}"

@@ -36,15 +36,22 @@ export const translations: Translation = {
         "freelance.start.id": "Sep 2023",
         "freelance.end.id": "Dic 2023",
         "freelance.desc.id": "Diseñé e implementé un sistema de automatización para el envío masivo de correos electrónicos destinado a una agencia de marketing, con el objetivo de incrementar la cantidad de leads potenciales. Utilicé diversas librerías en Python para crear scripts eficientes y robustos. Integré la YoutubeAPI para obtener información valiosa para el negocio. Por último, realicé pruebas exhaustivas para asegurar la fiabilidad y eficiencia del sistema.",
-
-        "projects.title.id": "Proyectos Seleccionados",
-        "projects.description.id": "Una colección de proyectos de desarrollo de software que destaco como mis favoritos",
-
+    
         "dojo.role.id": "Desarrollador Full Stack Angular & .NET",
         "dojo.title.id": "Dojo Gaming",
         "dojo.start.id": "2023",
         "dojo.end.id": "2024",
         "dojo.desc.id": "Proyecto Final de Ingeniería en Sistemas creado para Dojo Gaming, empresa que brinda el servicio de alquiler de consolas de videojuegos para entrenamiento de esports. Colaboré con el cliente para identificar y analizar requisitos del proyecto utilizando Scrum. Diseñé y desarrollé un sistema de gestión web y móvil con Angular e Ionic para el frontend, y ASP.NET Core para el backend. Creé APIs RESTful robustas siguiendo patrones de diseño en capas, asegurando escalabilidad y mantenibilidad. Implementé y gestioné bases de datos con Entity Framework y MySQL. Realicé prototipos de interfaces en Figma, asegurando una UX intuitiva y atractiva. Finalmente, configuré despliegues dockerizados en AWS utilizando RDS y EC2.",
+        
+        "mauad.role.id": "Desarrollador Full Stack",
+        "mauad.title.id": "MAUAD",
+        "mauad.start.id": "Mar 2024",
+        "mauad.end.id": "Ago 2024",
+        "mauad.desc.id": "Participé en un proyecto de corto plazo como desarrollador Full Stack, agregando nuevas funcionalidades y mejorando la experiencia de usuario en sistema web y móvil. Añadí funcionalidades a un sistema web con frontend en Angular, utilizando Material UI como biblioteca de estilos. Implementé el rediseño de app móvil en Ionic (Angular), mejorando su usabilidad y refactorizando código legado. Implementé soluciones para manejo offline de la app, enfrentando y resolviendo desafíos técnicos relacionados con la sincronización de datos. Trabajé con multiples microservicios, añadiendo funcionalidades a las distintas REST APIs en ASP.NET, dentro de una arquitectura Domain Driven Design. Realice migraciones de base de datos con Entity Framework.",
+
+
+        "projects.title.id": "Proyectos Seleccionados",
+        "projects.description.id": "Una colección de proyectos de desarrollo de software que destaco como mis favoritos",
 
         "microservices.role.id": "Desarrollador de Microservicios en ASP.NET",
         "microservices.title.id": "Docker · AWS EC2 ",
